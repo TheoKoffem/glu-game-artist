@@ -1,0 +1,22 @@
+
+.container-article {
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .flickity-slider {
+        display: flex;
+        align-items: center;
+    }
+    .flickity-page-dots {
+        position: unset;
+    }
+    .details, .comment  {
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.059);
+    }
+    .carousel-cell {
+        & img {
+            max-height: 500px!important;
+        }
+    }
+}

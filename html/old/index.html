@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Game Artist</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/tailwind.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- <script src='main.js'></script> -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid mx-auto">
+            <div class="row flex justify-between">
+                <div class="col logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="col filter flex items-center px-10">
+                    <form action="">
+                        <select id="periode" name="periode" class="p-2">
+                            <option value="Periode" selected disabled class="p-2">Periode</option>
+                        </select>
+                        <select id="les" name="les" placeholder="Les" class="p-2">
+                            <option value="Les" selected disabled>Les</option>
+                        </select>
+                        <select id="tag" name="tag" placeholder="tag" class="p-2">
+                            <option value="Tag" selected disabled>Tag</option>
+                        </select>
+                        <button type="submit" class="bg-orange-500 text-white p-2 rounded-md w-button">Verzenden</button>
+                    </form>
+                </div>
+                <div class="col buttons flex items-center">
+                    <button id="logout" class="bg-orange-500 text-white p-2 rounded-md mx-1 w-button">Uitloggen</button>
+                    <button id="admin" class="bg-orange-500 text-white p-2 rounded-md mx-1 w-button">Admin</button>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

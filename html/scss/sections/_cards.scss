@@ -1,0 +1,11 @@
+.cards {
+    .imagegallery-img {
+        width: 230px;
+        height: 412px;
+        box-shadow: rgba(0, 0, 0, 0.071) 0px 1px 5px 0px;
+        .thumbnail img {
+            max-width: 230px;
+            width: 100%;
+        }
+    }
+}

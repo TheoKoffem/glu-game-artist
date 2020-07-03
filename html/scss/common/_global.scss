@@ -1,0 +1,60 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+button {
+    font-size: 14px;
+}
+/*CUSTOM CLASSES*/
+img {
+    max-width: unset;
+}
+main {
+    height: calc(100% - 100px);
+    @media (max-width: 768px) {
+        height: calc(100% - 66.56px);
+    }
+    &.crumbs-comp {
+        margin-top: -64px;
+        overflow-y: scroll;
+    }
+}
+select {
+    background: #ECECEC;
+    border-radius: .375rem;
+    margin: 2.5px;
+}
+input {
+    background: #ECECEC;
+}
+.w-250 {
+    width: 250px;
+}
+.w-button {
+    width: 85px;
+}
+
+.container-fluid {
+    padding: 0px 10px;
+}
+.h-100 {
+    height: 100px;
+}
+@media (min-width: 768px) {
+    .md\:h-100 {
+        height: 100px;
+    }
+    .md\:w-button {
+        width: 85px;
+    }
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.bottom-500 {
+    bottom: -525px;
+    transition: all 0.5s ease;
+}
+.bottom-0 {
+    transition: all 0.5s ease;
+}
